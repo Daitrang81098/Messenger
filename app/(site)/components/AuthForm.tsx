@@ -13,7 +13,6 @@ import Button from "@/app/components/Button";
 import { toast } from "react-hot-toast";
 
 type Variant = 'LOGIN' | 'REGISTER';
-
 const AuthForm = () => {
   const session = useSession();
   const router = useRouter();
