@@ -113,10 +113,10 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
                     src={image || currentUser?.image || '/images/placeholder.jpg'}
                     alt="Avatar"
                   />
-                  <CldUploadButton 
+                  <CldUploadButton
                     options={{ maxFiles: 1 }} 
                     onUpload={handleUpload} 
-                    uploadPreset="pgc9ehd5"
+                    uploadPreset="odjsfiks"
                   >
                     <Button
                       disabled={isLoading}
